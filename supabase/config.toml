@@ -1,0 +1,8 @@
+project_id = "mrkgziygjbknujsesvta"
+
+[auth.hook.custom_access_token]
+enabled = true
+uri = "pg-functions://postgres/public/custom_access_token_hook"
+
+[functions.alumni-access]
+verify_jwt = false

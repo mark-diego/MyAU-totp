@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+!.env.example
+mfa-secrets.env
+supabase/.temp/
+*.log
